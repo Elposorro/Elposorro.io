@@ -8,7 +8,9 @@
   width:384px;
   margin: 50px auto;
 }
-
+h2 {
+  text-align: center;
+}
 p {
   display: block;
   width: 400px;
