@@ -1,35 +1,40 @@
+/*	font-family: 'Galada', cursive;*/
+html {
+	background-color: hsla(152, 100%, 92%, 0.4);
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+	width: 600px;
+	background-color: white;
+	margin: auto;
+	padding: 0 30px 20px 30px;
+	border: 5px double rgb(169, 96, 48);
+	border-radius: 50px;
+	margin-top: 50px;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 600px;
+}
+
 h1 {
-    text-align: center;
+	font-size: 40px;
+	text-align: center;
+	margin: auto;
+	padding: 20px 0;
+	text-shadow: 3px 3px 1px hsla(152, 100%, 92%, 0.4); /* #E7DDFC*/
+	color: rgb(169, 96, 48);
 }
 
-p {
-    text-align: center;
-    margin-bottom:5px;
+p, li {
+	font-size: 16px;
+	line-height: 1.4;
+	letter-spacing: 0.8px;
 }
 
-input{
-    align-items: center;
-}
-
-p.sex {
-    margin-top: 30px; 
-}
-
-.justified {
-    text-align: center;
-    margin-top: 15px; 
-}
-
-p.ideas {
-    margin-top: 30px;
-}
-
-.sexes {
-   text-align: center;
-   margin-top: 7px;
-}
-
-.submit {
-    text-align: center;
-    margin-top: 30px;
+#parts {
+	padding-top: 20px;
 }
